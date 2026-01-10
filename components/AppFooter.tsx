@@ -86,23 +86,6 @@ export default function AppFooter({ isDark, setCurrentView, handleStartQuestions
             </ul>
           </div>
         </div>
-        
-        <div className={`border-t ${isDark ? 'border-gray-700' : 'border-gray-200'} mt-8 pt-8 flex flex-col md:flex-row justify-between items-center`}>
-          <p className={`${isDark ? 'text-gray-400' : 'text-gray-600'} text-sm`}>
-            © 2026 StackReferee. Built for real technical decisions, not demos.
-          </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className={`${isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'} text-sm transition-colors duration-200`}>
-              Privacy Policy
-            </a>
-            <a href="#" className={`${isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'} text-sm transition-colors duration-200`}>
-              Terms of Service
-            </a>
-            <a href="#" className={`${isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'} text-sm transition-colors duration-200`}>
-              Contact
-            </a>
-          </div>
-        </div>
       </div>
     </footer>
   )
