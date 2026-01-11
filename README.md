@@ -1,5 +1,7 @@
 # StackReferee - An AI Tech Stack Decision Engine
 
+![kiro poster](https://github.com/user-attachments/assets/680d44c1-edbf-425a-8e16-17585271520d)
+
 A beautiful, production-ready web application that helps companies and students make informed technology stack decisions through AI-powered analysis, interactive visualizations, and expert guidance.
 
 ## 🎯 Problem Solved
