@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* 🌌 Cosmic Neutral Color System */
+    /* Core Background - Deep cosmic navy (not pure black) */
+    --bg-base: #0b1020;
+    --galaxy-glow: #1b1f3b;
+    --bg-glass: rgba(255, 255, 255, 0.08);
+    --border-glass: rgba(255, 255, 255, 0.12);
+    
+    /* Cosmic Text Colors - Never pure white/black */
+    --text-primary: #e8ebff;
+    --text-secondary: rgba(232, 235, 255, 0.65);
+    --text-muted: rgba(232, 235, 255, 0.4);
+    
+    /* Cosmic Accent Colors - Blue to Violet */
+    --accent-primary: #5b8cff;
+    --accent-secondary: #8b5cf6;
+    --accent-glow: rgba(91, 140, 255, 0.45);
+    
+    /* Star Colors - Soft cosmic whites */
+    --star-color: rgba(255, 255, 255, 0.6);
+    --star-glow: rgba(180, 200, 255, 0.8);
+  }
+
+  [data-theme="light"] {
+    /* Light Mode - Cosmic light palette */
+    --bg-base: #f4f6ff;
+    --bg-glass: rgba(255, 255, 255, 0.7);
+    --border-glass: rgba(11, 16, 32, 0.12);
+    
+    /* Light Mode Text - Inverted cosmic colors */
+    --text-primary: #0b1020;
+    --text-secondary: rgba(11, 16, 32, 0.65);
+    --text-muted: rgba(11, 16, 32, 0.4);
+    
+    /* Accent colors remain same, glow adapts */
+    --accent-glow: rgba(91, 140, 255, 0.25);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply transition-colors duration-300;
+    /* 🌌 Cosmic Neutral Galaxy Background */
+    background: radial-gradient(
+      circle at top left,
+      #1b1f3b 0%,
+      #0b1020 40%,
+      #050814 100%
+    );
+    min-height: 100vh;
+    color: var(--text-primary);
+  }
+
+  [data-theme="light"] body {
+    /* Light mode keeps galaxy background but with cosmic light base */
+    background: radial-gradient(
+      circle at top left,
+      #e8ebff 0%,
+      #f4f6ff 40%,
+      #ffffff 100%
+    );
+  }
+  
+  .dark {
+    color-scheme: dark;
+  }
+
+  .light {
+    color-scheme: light;
+  }
+}
+
+@layer components {
+  /* 🌌 Cosmic Neutral Glassmorphism Cards */
+  .glass-card {
+    background: var(--bg-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-glass);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    transition: all 300ms ease-in-out;
+  }
+
+  [data-theme="light"] .glass-card {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .glass-card:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 24px var(--accent-glow);
+    transform: translateY(-2px);
+  }
+
+  /* 🔵 Cosmic Accent Buttons */
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    color: #fff;
+    box-shadow: 0 0 24px var(--accent-glow);
+    @apply font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform;
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 0 32px var(--accent-glow);
+    transform: translateY(-1px);
+  }
+  
+  .btn-secondary {
+    background: var(--bg-glass);
+    color: var(--text-primary);
+    border: 1px solid var(--border-glass);
+    @apply font-semibold py-3 px-6 rounded-xl transition-all duration-300;
+    backdrop-filter: blur(16px);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: var(--accent-primary);
+  }
+
+  /* 🌌 Cosmic Text System */
+  .text-primary {
+    color: var(--text-primary);
+  }
+
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+
+  .text-muted {
+    color: var(--text-muted);
+  }
+
+  /* ✨ Cosmic Gradient Text */
+  .gradient-text {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* 📊 Cosmic Progress Elements */
+  .progress-bar {
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    box-shadow: 0 0 20px var(--accent-glow);
+  }
+
+  /* 🎯 Cosmic Interactive Options */
+  .option-card {
+    background: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    @apply rounded-xl p-6 transition-all duration-300;
+  }
+
+  [data-theme="light"] .option-card {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+
+  .option-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 24px var(--accent-glow);
+  }
+
+  .option-card.selected {
+    background: rgba(91, 140, 255, 0.1);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 32px var(--accent-glow);
+  }
+
+  /* 🌟 Cosmic Animations */
+  @keyframes float-gentle {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+  }
+
+  .float-gentle {
+    animation: float-gentle 6s ease-in-out infinite;
+  }
+
+  /* 🌠 Cosmic Interactive Effects */
+  .interactive-glow {
+    transition: all 300ms ease-in-out;
+  }
+
+  .interactive-glow:hover {
+    box-shadow: 0 0 30px var(--accent-glow);
+    transform: translateY(-2px);
+  }
+
+  /* 🏷️ Cosmic Tech Labels */
+  .tech-label {
+    color: var(--text-muted);
+    background: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    @apply px-3 py-2 rounded-lg text-sm transition-all duration-300;
+    backdrop-filter: blur(12px);
+  }
+
+  .tech-label:hover {
+    color: var(--accent-primary);
+    border-color: var(--accent-primary);
+    background: rgba(91, 140, 255, 0.1);
+  }
+
+  /* ⏱️ Staggered Cosmic Animations */
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
+}

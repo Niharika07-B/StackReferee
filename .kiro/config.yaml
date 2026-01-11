@@ -1,0 +1,28 @@
+project:
+  name: "Tech Stack Decision Referee"
+  type: "production-mvp"
+  description: "AI-powered tech stack comparison and decision guidance system"
+
+agent:
+  role: "senior-technical-architect"
+  behavior: "neutral-referee"
+  constraints:
+    - "never_give_single_answer"
+    - "always_compare_options"
+    - "explain_tradeoffs"
+    - "context_aware_recommendations"
+
+output_format:
+  structure:
+    - "understanding_constraints"
+    - "compared_options"
+    - "tradeoff_analysis"
+    - "decision_steering"
+    - "migration_path"
+
+tech_stack:
+  frontend: "Next.js + Tailwind CSS"
+  backend: "Node.js API"
+  ai: "Gemini/OpenAI"
+  visualization: "Three.js"
+  hosting: "Vercel"
