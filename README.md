@@ -4,6 +4,22 @@
 
 A beautiful, production-ready web application that helps companies and students make informed technology stack decisions through AI-powered analysis, interactive visualizations, and expert guidance.
 
+---
+
+## 🧠 Kiro Heroes – Week 6: “The Referee”
+
+![PHOTO-2026-01-12-10-42-13](https://github.com/user-attachments/assets/81ffce98-a97a-40f5-abbf-38b608d75190)
+
+This project was built as part of **Kiro Heroes – Week 6 Challenge**, where the goal was to:
+
+> **Build a tool that compares options and explains trade-offs instead of giving a single answer.**
+
+StackReferee acts as a **neutral AI referee**, helping users *choose* the right tech stack based on real-world constraints.
+
+![PHOTO-2026-01-12-10-53-37](https://github.com/user-attachments/assets/d17228fe-23e0-4c7a-9b60-9566e36a8a06)
+
+---
+
 ## 🎯 Problem Solved
 
 Developers, founders, and students frequently struggle with choosing the right tech stack:
@@ -11,7 +27,11 @@ Developers, founders, and students frequently struggle with choosing the right t
 - Node.js vs Django  
 - AWS vs GCP vs Azure
 
+![PHOTO-2026-01-12-10-56-59](https://github.com/user-attachments/assets/547a039e-5a91-4684-a578-ea6b32b1e1b4)
+
 Wrong decisions cause months of rework, increased costs, and missed deadlines. StackReferee acts as a **neutral AI referee** that evaluates options using real constraints and engineering logic.
+
+---
 
 ## ✨ Key Features
 
@@ -22,9 +42,15 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 - **Responsive Design**: Perfect on desktop, tablet, and mobile
 - **Theme Selector**: Multiple color themes (Default, Ocean, Sunset, Forest, Midnight)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/69c4185b-e4b7-400c-a3cd-30751d2bbda3" width="48%" />
+  <img src="https://github.com/user-attachments/assets/91a0b4d5-7e77-4c00-977b-1f95440c07e9" width="48%" />
+</p>
+
+
 ### 🧠 AI-Powered Analysis
 - **Neutral Decision Making**: No biased recommendations
-- **Multi-Option Comparison**: Always compares 2-3 viable stacks
+- **Multi Option Comparison**: Always compares 2-3 viable stacks
 - **Trade-off Transparency**: Clear explanation of gains and losses
 - **Context-Aware**: Tailored to budget, team, timeline, and scale
 - **Future Planning**: Migration paths and evolution strategies
@@ -37,6 +63,8 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 - **Smooth Navigation**: Seamless user flow
 
 ## 🏗️ Architecture
+
+![PHOTO-2026-01-12-11-01-28](https://github.com/user-attachments/assets/f1c67039-fc74-4894-8c4f-29728979fad7)
 
 ### Tech Stack
 - **Frontend**: Next.js 14 + React + TypeScript
