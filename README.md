@@ -87,8 +87,10 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 # 🚀 Getting Started
 
 ### Prerequisites
+```
 - Node.js 18+ 
 - npm or yarn
+```
 
 ### Installation
 
