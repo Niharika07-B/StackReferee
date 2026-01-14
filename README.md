@@ -1,6 +1,7 @@
 # StackReferee - An AI Tech Stack Decision Engine
 
-![kiro poster](https://github.com/user-attachments/assets/680d44c1-edbf-425a-8e16-17585271520d)
+![PHOTO-2026-01-12-10-53-37](https://github.com/user-attachments/assets/d17228fe-23e0-4c7a-9b60-9566e36a8a06)
+
 
 A beautiful, production-ready web application that helps companies and students make informed technology stack decisions through AI-powered analysis, interactive visualizations, and expert guidance.
 
@@ -15,8 +16,6 @@ This project was built as part of **Kiro Heroes – Week 6 Challenge**, where th
 > **Build a tool that compares options and explains trade-offs instead of giving a single answer.**
 
 StackReferee acts as a **neutral AI referee**, helping users *choose* the right tech stack based on real-world constraints.
-
-![PHOTO-2026-01-12-10-53-37](https://github.com/user-attachments/assets/d17228fe-23e0-4c7a-9b60-9566e36a8a06)
 
 ---
 
@@ -80,6 +79,9 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 - **Typography**: Inter font family with display variants
 - **Components**: Glassmorphism cards, gradient buttons, interactive elements
 - **Animations**: Fade-in, slide-up, float, glow, and bounce effects
+ <img width="977" height="504" alt="Screenshot 2026-01-14 at 13 50 36" src="https://github.com/user-attachments/assets/63096164-df43-47a9-9160-13958457cb57" />
+
+---
 
 ## 🚀 Getting Started
 
@@ -133,6 +135,7 @@ The AI evaluates stacks across:
 - **Cost**: Development speed, learning curve, operational costs
 - **Technical**: Performance, scalability, vendor lock-in, ecosystem
 - **Risk**: Migration difficulty, maintenance burden, technology maturity
+<img width="953" height="696" alt="Screenshot 2026-01-14 at 13 48 20" src="https://github.com/user-attachments/assets/a49b02d0-e491-42d6-9279-48737f69b0ce" />
 
 ## 📁 Project Structure
 
@@ -187,6 +190,8 @@ The AI service (`lib/ai-service.ts`) can be configured to use different provider
 
 ### Mock Mode
 For development/demo purposes, the app includes realistic mock responses that simulate the AI decision logic without requiring API keys.
+
+<img width="418" height="605" alt="Screenshot 2026-01-14 at 13 45 43" src="https://github.com/user-attachments/assets/a6c65cfe-1a34-4f94-b69b-fc016172606d" />
 
 ## 🚀 Deployment
 
