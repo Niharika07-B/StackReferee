@@ -149,29 +149,29 @@ The AI evaluates stacks across:
 # 📁 Project Structure
 
 ```
-├── .kiro/                  # Kiro agent configuration
-│   ├── config.yaml        # Project configuration
-│   ├── reasoning.md       # AI decision logic
-│   └── prompts.md         # AI prompt templates
-├── app/                   # Next.js app directory
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx          # Main page
-├── components/            # React components
-│   ├── FormStep.tsx       # Step wrapper component
-│   ├── ProjectTypeStep.tsx # Step 1: Project context
-│   ├── ResourcesStep.tsx  # Step 2: Budget & team
-│   ├── RequirementsStep.tsx # Step 3: Timeline & scale
-│   ├── AnalysisStep.tsx   # Step 4: Results display
-│   ├── TechStackCard.tsx  # Stack comparison cards
-│   ├── LoadingSpinner.tsx # Loading indicator
-│   └── ProgressIndicator.tsx # Step progress
-├── lib/                   # Utilities
-│   ├── store.ts          # Zustand state management
-│   └── ai-service.ts     # AI integration service
-├── types/                 # TypeScript definitions
-│   └── index.ts          # Core type definitions
-└── README.md             # This file
+├── .kiro/                      # Kiro agent configuration
+│   ├── config.yaml             # Project configuration
+│   ├── reasoning.md            # AI decision logic
+│   └── prompts.md              # AI prompt templates
+├── app/                        # Next.js app directory
+│   ├── globals.css             # Global styles
+│   ├── layout.tsx              # Root layout
+│   └── page.tsx                # Main page
+├── components/                 # React components
+│   ├── FormStep.tsx            # Step wrapper component
+│   ├── ProjectTypeStep.tsx     # Step 1: Project context
+│   ├── ResourcesStep.tsx       # Step 2: Budget & team
+│   ├── RequirementsStep.tsx    # Step 3: Timeline & scale
+│   ├── AnalysisStep.tsx        # Step 4: Results display
+│   ├── TechStackCard.tsx       # Stack comparison cards
+│   ├── LoadingSpinner.tsx      # Loading indicator
+│   └── ProgressIndicator.tsx   # Step progress
+├── lib/                        # Utilities
+│   ├── store.ts                # Zustand state management
+│   └── ai-service.ts           # AI integration service
+├── types/                      # TypeScript definitions
+│   └── index.ts                # Core type definitions
+└── README.md                   # This file
 ```
 ---
 
