@@ -248,7 +248,7 @@ The product is successful if:
 
 ---
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -258,10 +258,48 @@ The product is successful if:
 
 ---
 
-## 📄 License
+# 📄 License
 
 MIT License - see LICENSE file for details.
 
 ---
 
-**Built for real technical decisions, not demos.**
+# 🎯 See StackReferee in Action
+
+This project was built to answer one question:
+> *“Which option should I choose — and why?”*
+
+- 🚀 **Live Experience:** https://stackreferee.vercel.app/
+- 🎥 **Demo Video:** https://youtu.be/hX8EpN4Z21A?si=6TAgZBPLpa46tXGy
+---
+
+# 🤖 Built With Kiro
+
+Kiro helped shape this project into a **referee**, not a recommender —  
+focusing on trade-offs, constraints, and long-term thinking.
+<img width="1000" height="665" alt="image" src="https://github.com/user-attachments/assets/20aa9690-c43a-4850-8c78-3d0f7221df48" />
+
+
+---
+
+# 🌐 Let’s Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/niharika-bandaru/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Niharika%20Bandaru-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Niharika07-B" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Niharika07--B-black?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://linktr.ee/b._.niharika07" target="_blank">
+    <img src="https://img.shields.io/badge/Linktree-Connect-green?style=for-the-badge&logo=linktree&logoColor=white"/>
+  </a>
+</p>
+
+
+⭐ If StackReferee helped you think clearer, **star the repo** and share it.
+
+
+---
+
+**Thanks for reading — hope this helped you make better technical decisions.**
