@@ -7,7 +7,7 @@ A beautiful, production-ready web application that helps companies and students 
 
 ---
 
-## 🧠 Kiro Heroes – Week 6: “The Referee”
+# 🧠 Kiro Heroes – Week 6: “The Referee”
 
 ![PHOTO-2026-01-12-10-42-13](https://github.com/user-attachments/assets/81ffce98-a97a-40f5-abbf-38b608d75190)
 
@@ -19,7 +19,7 @@ StackReferee acts as a **neutral AI referee**, helping users *choose* the right 
 
 ---
 
-## 🎯 Problem Solved
+# 🎯 Problem Solved
 
 Developers, founders, and students frequently struggle with choosing the right tech stack:
 - Firebase vs Supabase
@@ -32,7 +32,7 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 
 ---
 
-## ✨ Key Features
+# ✨ Key Features
 
 ### 🎨 Beautiful Modern UI
 - **Glassmorphism Design**: Modern glass-effect cards with backdrop blur
@@ -45,7 +45,6 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
   <img src="https://github.com/user-attachments/assets/69c4185b-e4b7-400c-a3cd-30751d2bbda3" width="48%" />
   <img src="https://github.com/user-attachments/assets/91a0b4d5-7e77-4c00-977b-1f95440c07e9" width="48%" />
 </p>
-
 
 ### 🧠 AI-Powered Analysis
 - **Neutral Decision Making**: No biased recommendations
@@ -61,7 +60,9 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 - **Progress Tracking**: Clear step indicators
 - **Smooth Navigation**: Seamless user flow
 
-## 🏗️ Architecture
+---
+
+# 🏗️ Architecture
 
 ![PHOTO-2026-01-12-11-01-28](https://github.com/user-attachments/assets/f1c67039-fc74-4894-8c4f-29728979fad7)
 
@@ -83,7 +84,7 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -93,7 +94,7 @@ Wrong decisions cause months of rework, increased costs, and missed deadlines. S
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Niharika07-B/StackReferee>
 cd tech-stack-referee
 ```
 
@@ -120,7 +121,9 @@ npm run dev
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🧠 AI Referee Logic
+---
+
+# 🧠 AI Referee Logic
 
 The system acts as a **senior technical architect** that:
 
@@ -129,7 +132,9 @@ The system acts as a **senior technical architect** that:
 3. **Considers context** - Tailors advice to budget, team, timeline, scale
 4. **Plans for evolution** - Suggests migration paths as needs change
 
-### Decision Framework
+---
+
+# Decision Framework
 
 The AI evaluates stacks across:
 - **Cost**: Development speed, learning curve, operational costs
@@ -137,7 +142,9 @@ The AI evaluates stacks across:
 - **Risk**: Migration difficulty, maintenance burden, technology maturity
 <img width="953" height="696" alt="Screenshot 2026-01-14 at 13 48 20" src="https://github.com/user-attachments/assets/a49b02d0-e491-42d6-9279-48737f69b0ce" />
 
-## 📁 Project Structure
+---
+
+# 📁 Project Structure
 
 ```
 ├── .kiro/                  # Kiro agent configuration
@@ -164,8 +171,9 @@ The AI evaluates stacks across:
 │   └── index.ts          # Core type definitions
 └── README.md             # This file
 ```
+---
 
-## 🎨 Design System
+# 🎨 Design System
 
 ### Colors
 - **Primary**: Blue (#3b82f6) - Trust and reliability
@@ -180,7 +188,9 @@ The AI evaluates stacks across:
 - **Form Fields**: Consistent styling with focus states
 - **Progress**: Visual step indicator with completion states
 
-## 🔧 Configuration
+---
+
+# 🔧 Configuration
 
 ### AI Service
 The AI service (`lib/ai-service.ts`) can be configured to use different providers:
@@ -193,7 +203,9 @@ For development/demo purposes, the app includes realistic mock responses that si
 
 <img width="418" height="605" alt="Screenshot 2026-01-14 at 13 45 43" src="https://github.com/user-attachments/assets/a6c65cfe-1a34-4f94-b69b-fc016172606d" />
 
-## 🚀 Deployment
+---
+
+# 🚀 Deployment
 
 ### Vercel (Recommended)
 1. Connect your GitHub repository to Vercel
@@ -207,7 +219,9 @@ The app is a standard Next.js application and can be deployed to:
 - Railway
 - Any Node.js hosting platform
 
-## 🧪 Testing
+---
+
+# 🧪 Testing
 
 ### Manual Testing Scenarios
 1. **Student Project**: Low budget, simple requirements
@@ -220,13 +234,17 @@ The app is a standard Next.js application and can be deployed to:
 - Trade-offs should be clearly explained
 - Migration paths should be realistic and actionable
 
-## 📈 Success Metrics
+---
+
+# 📈 Success Metrics
 
 The product is successful if:
 - A startup can use it to choose a stack confidently
 - A student can justify architecture decisions in reviews
 - Different constraint sets produce meaningfully different recommendations
 - Output feels like advice from a senior engineer
+
+---
 
 ## 🤝 Contributing
 
@@ -235,6 +253,8 @@ The product is successful if:
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
+
+---
 
 ## 📄 License
 
