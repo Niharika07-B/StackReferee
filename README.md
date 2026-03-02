@@ -17,7 +17,7 @@ This project was built as part of **Kiro Heroes – Week 6 Challenge**, where th
 
 StackReferee acts as a **neutral AI referee**, helping users *choose* the right tech stack based on real-world constraints.
 
----
+--- 
 
 # 🎯 Problem Solved
 
